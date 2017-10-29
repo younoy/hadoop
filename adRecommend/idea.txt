@@ -1,0 +1,34 @@
+关注度：
+    W  = TF * log（N/DF） = TF * IDF
+
+TF（Term Frequency 词频）:表示为关键字在该篇微博中出现的次数
+IDF（Inverse Document Frequency 逆文档频率）:表示为重要性调整参数，也就是改关键词的权重。
+    DF:当前关键词在所有微博中出现的微博条数
+    N:微博总条数
+
+
+
+10.27
+
+HDFS的HA：
+    HA部署(最少三个)：
+                    NN   DN   ZK   ZKFC  JN   RM   NM
+
+        node1       √          √    √         √
+
+        node2       √    √     √    √    √         √
+
+        node3            √     √         √         √
+
+        node4            √               √         √
+
+
+自定义shuffle过程：
+    自定义序列化对象：
+    自定义排序：
+    自定义分组：
+
+10.28
+
+mapReuce的原理过程：
+
